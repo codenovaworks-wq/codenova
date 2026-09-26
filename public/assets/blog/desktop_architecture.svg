@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect width="800" height="450" fill="#0F172A" rx="8" />
+  <g transform="translate(100, 40)">
+    <rect x="0" y="0" width="600" height="340" rx="10" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5" />
+    <text x="40" y="50" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="14" font-weight="700">DESKTOP SYSTEM ARCHITECTURE</text>
+    <text x="40" y="90" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Native Speed · Embedded SQLite · Offline Autonomy</text>
+    
+    <rect x="40" y="130" width="160" height="150" rx="8" fill="#0F172A" stroke="#334155" />
+    <text x="60" y="165" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12" font-weight="700">LOCAL LAYER</text>
+    <text x="60" y="195" fill="#CBD5E1" font-family="monospace" font-size="12">SQLite Engine</text>
+    <text x="60" y="220" fill="#CBD5E1" font-family="monospace" font-size="12">ESC/POS Printer</text>
+    <text x="60" y="245" fill="#CBD5E1" font-family="monospace" font-size="12">USB Scanners</text>
+
+    <text x="230" y="210" fill="#64748B" font-family="monospace" font-size="20">⇄</text>
+
+    <rect x="270" y="130" width="160" height="150" rx="8" fill="#0F172A" stroke="#334155" />
+    <text x="290" y="165" fill="#10B981" font-family="system-ui, sans-serif" font-size="12" font-weight="700">SYNC QUEUE</text>
+    <text x="290" y="195" fill="#CBD5E1" font-family="monospace" font-size="12">Outbox Buffer</text>
+    <text x="290" y="220" fill="#CBD5E1" font-family="monospace" font-size="12">Conflict Resolver</text>
+    <text x="290" y="245" fill="#CBD5E1" font-family="monospace" font-size="12">Signed Bundles</text>
+
+    <text x="460" y="210" fill="#64748B" font-family="monospace" font-size="20">⇄</text>
+
+    <rect x="500" y="130" width="70" height="150" rx="8" fill="#0F172A" stroke="#334155" />
+    <text x="510" y="165" fill="#818CF8" font-family="system-ui, sans-serif" font-size="10" font-weight="700">CLOUD</text>
+    <text x="510" y="210" fill="#CBD5E1" font-family="monospace" font-size="10">Postgres</text>
+  </g>
+</svg>

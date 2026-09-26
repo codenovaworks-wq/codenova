@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#0B132B" rx="12" />
+  <!-- Chat UI Mockup -->
+  <rect x="100" y="50" width="600" height="400" rx="12" fill="#1C2541" stroke="#3A506B" stroke-width="1.5" />
+  <!-- Header -->
+  <rect x="100" y="50" width="600" height="50" rx="12" fill="#0B132B" />
+  <circle cx="130" cy="75" r="14" fill="#00A3E0" />
+  <text x="124" y="80" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="12" font-weight="800">AI</text>
+  <text x="155" y="75" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="600">BFGI Assist Campus Portal</text>
+  <text x="155" y="90" fill="#10B981" font-family="system-ui, sans-serif" font-size="11">● Grounded in 2026 Academic Catalog</text>
+
+  <!-- User Bubble -->
+  <rect x="320" y="130" width="350" height="55" rx="12" fill="#2563EB" />
+  <text x="340" y="154" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="13">When do B.Tech 6th Semester exams start,</text>
+  <text x="340" y="172" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="13">and where can I download the admit card?</text>
+
+  <!-- AI Response Bubble -->
+  <rect x="130" y="210" width="460" height="150" rx="12" fill="#0B132B" stroke="#3A506B" />
+  <text x="150" y="238" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Verified Answer (Source: Academic Memo #2026-44)</text>
+  <text x="150" y="265" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="13">B.Tech 6th Semester theory examinations commence on</text>
+  <text x="150" y="285" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Monday, May 18, 2026.</text>
+  <text x="150" y="315" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">Admit cards will be released on the ERP portal on May 10th.</text>
+  <text x="150" y="340" fill="#10B981" font-family="system-ui, sans-serif" font-size="12">✓ Verified against Department of Examinations record.</text>
+
+  <!-- Input Field -->
+  <rect x="130" y="380" width="540" height="48" rx="8" fill="#0B132B" stroke="#475569" />
+  <text x="150" y="410" fill="#64748B" font-family="system-ui, sans-serif" font-size="13">Ask about syllabus, fees, schedules or scholarships...</text>
+</svg>

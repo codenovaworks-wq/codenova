@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="450" fill="url(#bgGrad)" />
+
+  <!-- Subtle Grid Accent -->
+  <g opacity="0.08" stroke="#38BDF8" stroke-width="1">
+    <line x1="0" y1="75" x2="800" y2="75" />
+    <line x1="0" y1="150" x2="800" y2="150" />
+    <line x1="0" y1="225" x2="800" y2="225" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="375" x2="800" y2="375" />
+    <line x1="100" y1="0" x2="100" y2="450" />
+    <line x1="250" y1="0" x2="250" y2="450" />
+    <line x1="400" y1="0" x2="400" y2="450" />
+    <line x1="550" y1="0" x2="550" y2="450" />
+    <line x1="700" y1="0" x2="700" y2="450" />
+  </g>
+
+  <!-- Main Terminal Card -->
+  <g transform="translate(60, 35)">
+    <!-- Container with Border Glow -->
+    <rect x="0" y="0" width="680" height="380" rx="16" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" />
+
+    <!-- Terminal Window Top Bar -->
+    <rect x="0" y="0" width="680" height="48" rx="16" fill="#0F172A" />
+    <rect x="0" y="32" width="680" height="16" fill="#0F172A" />
+    <line x1="0" y1="48" x2="680" y2="48" stroke="#1E293B" stroke-width="1.5" />
+
+    <!-- Traffic Lights -->
+    <circle cx="28" cy="24" r="6" fill="#EF4444" />
+    <circle cx="48" cy="24" r="6" fill="#F59E0B" />
+    <circle cx="68" cy="24" r="6" fill="#10B981" />
+
+    <!-- Window Title -->
+    <text x="340" y="30" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="1">ARCHITECTURAL CONCURRENCY MONITOR</text>
+
+    <!-- Header Content -->
+    <g transform="translate(35, 75)">
+      <rect x="0" y="0" width="180" height="24" rx="6" fill="#1E3A8A" fill-opacity="0.4" stroke="#2563EB" stroke-width="1" />
+      <text x="12" y="16" fill="#60A5FA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="0.5">HIGH CONCURRENCY &amp; SCALE</text>
+
+      <text x="0" y="52" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800">Distributed Mutex &amp; Atomic Locking Architecture</text>
+      <text x="0" y="74" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">Zero-downtime clustering, connection pool orchestration, and sub-millisecond cache sync</text>
+    </g>
+
+    <!-- Interactive Execution Pipeline Mockup -->
+    <g transform="translate(35, 175)">
+      <!-- Left Box: Redis Atomic Mutex Lock -->
+      <g>
+        <rect x="0" y="0" width="370" height="185" rx="10" fill="#020617" stroke="#1E293B" stroke-width="1.5" />
+        <rect x="0" y="0" width="370" height="32" rx="10" fill="#0B132B" />
+        <rect x="0" y="20" width="370" height="12" fill="#0B132B" />
+        <line x1="0" y1="32" x2="370" y2="32" stroke="#1E293B" />
+
+        <text x="15" y="21" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">LOCK ENGINE: REDIS DISTRIBUTED MUTEX</text>
+
+        <!-- Command Line 1 -->
+        <text x="16" y="56" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">&gt; SET seat_lock:audit_102 token_a89x NX PX 10000</text>
+        <rect x="16" y="66" width="338" height="24" rx="4" fill="#064E3B" fill-opacity="0.3" stroke="#059669" stroke-width="0.8" />
+        <text x="24" y="82" fill="#34D399" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600">[OK] Lock Acquired · TTL: 10,000ms · Thread #1</text>
+
+        <!-- Command Line 2 -->
+        <text x="16" y="114" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">&gt; Concurrent Ingress: 4,500 simultaneous requests</text>
+        <rect x="16" y="124" width="338" height="24" rx="4" fill="#450A0A" fill-opacity="0.4" stroke="#DC2626" stroke-width="0.8" />
+        <text x="24" y="140" fill="#F87171" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600">[BLOCKED] Thread #2 Rejected · Race Prevented</text>
+
+        <!-- Status -->
+        <text x="16" y="172" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">Double-Booking Collisions: 0 | p99 Latency: 4.2ms</text>
+      </g>
+
+      <!-- Right Box: System Health & Throughput Metrics -->
+      <g transform="translate(390, 0)">
+        <rect x="0" y="0" width="220" height="185" rx="10" fill="#020617" stroke="#1E293B" stroke-width="1.5" />
+        <rect x="0" y="0" width="220" height="32" rx="10" fill="#0B132B" />
+        <rect x="0" y="20" width="220" height="12" fill="#0B132B" />
+        <line x1="0" y1="32" x2="220" y2="32" stroke="#1E293B" />
+
+        <text x="15" y="21" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">LIVE METRICS</text>
+
+        <!-- Metric 1 -->
+        <text x="15" y="55" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">INGRESS CONCURRENCY</text>
+        <text x="15" y="75" fill="#38BDF8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" font-weight="700">4,850 <tspan font-size="11" fill="#64748B">req/sec</tspan></text>
+
+        <!-- Metric 2 -->
+        <text x="15" y="105" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">UPTIME AVAILABILITY</text>
+        <text x="15" y="125" fill="#10B981" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" font-weight="700">99.998%</text>
+
+        <!-- Metric 3 -->
+        <text x="15" y="152" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600">CONNECTION POOL</text>
+        <text x="15" y="170" fill="#FBBF24" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="13" font-weight="600">PgBouncer (Active: 48/50)</text>
+      </g>
+    </g>
+  </g>
+</svg>

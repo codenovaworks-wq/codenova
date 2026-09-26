@@ -1,0 +1,6 @@
+{
+  "name": "CodeNova — Software Development & AI Solutions",
+  "description": "CodeNova helps businesses turn ideas and business problems into modern software, AI solutions and digital products.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

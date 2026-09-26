@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#0F172A" rx="12" />
+  <!-- Dashboard Grid -->
+  <rect x="80" y="60" width="640" height="380" rx="10" fill="#1E293B" stroke="#334155" />
+  <rect x="80" y="60" width="640" height="45" rx="10" fill="#0B132B" />
+  <text x="110" y="88" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="15" font-weight="700">BuyHive B2B Wholesale Portal</text>
+  <text x="560" y="88" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12">Wholesale Account #B2B-9081</text>
+
+  <!-- Product Matrix -->
+  <rect x="110" y="130" width="280" height="270" rx="8" fill="#0F172A" stroke="#334155" />
+  <text x="130" y="160" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Industrial Sensor Nodes (Pack of 50)</text>
+  <text x="130" y="185" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">SKU: IND-SEN-2026-X</text>
+  
+  <text x="130" y="225" fill="#64748B" font-family="system-ui, sans-serif" font-size="11">TIER PRICING MATRIX</text>
+  <text x="130" y="250" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">1 - 9 Cases:</text>
+  <text x="320" y="250" fill="#CBD5E1" font-family="monospace" font-size="12">$420 / cs</text>
+  <text x="130" y="275" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="12">10 - 49 Cases:</text>
+  <text x="320" y="275" fill="#CBD5E1" font-family="monospace" font-size="12">$380 / cs</text>
+  <text x="130" y="300" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">50+ Cases (Selected):</text>
+  <text x="320" y="300" fill="#38BDF8" font-family="monospace" font-size="12" font-weight="700">$340 / cs</text>
+
+  <rect x="130" y="335" width="240" height="40" rx="6" fill="#2563EB" />
+  <text x="180" y="360" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Order 60 Cases ($20,400)</text>
+
+  <!-- Real Time Inventory & Logistics -->
+  <rect x="410" y="130" width="280" height="270" rx="8" fill="#0F172A" stroke="#334155" />
+  <text x="430" y="160" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Warehouse Fulfillment</text>
+  
+  <text x="430" y="200" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Dallas Main Hub:</text>
+  <text x="590" y="200" fill="#10B981" font-family="monospace" font-size="12">2,480 in stock</text>
+
+  <text x="430" y="235" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Rotterdam Gateway:</text>
+  <text x="590" y="235" fill="#10B981" font-family="monospace" font-size="12">1,120 in stock</text>
+
+  <line x1="430" y1="265" x2="660" y2="265" stroke="#334155" />
+  <text x="430" y="295" fill="#64748B" font-family="system-ui, sans-serif" font-size="11">PAYMENT TERMS</text>
+  <text x="430" y="325" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Net-30 Invoice / Wire Transfer</text>
+  <text x="430" y="348" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Credit Limit: $150,000 Approved</text>
+</svg>

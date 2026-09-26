@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <rect width="800" height="450" fill="#0B132B" rx="8" />
+  <g transform="translate(100, 40)">
+    <rect x="0" y="0" width="600" height="340" rx="10" fill="#1C2541" stroke="#475569" stroke-width="1.5" />
+    <text x="40" y="50" fill="#00A3E0" font-family="system-ui, sans-serif" font-size="14" font-weight="700">ENTERPRISE AI ARCHITECTURE</text>
+    <text x="40" y="90" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="22" font-weight="700">RAG Grounding · Strict Function Calling · Guardrails</text>
+
+    <rect x="40" y="130" width="240" height="160" rx="8" fill="#0B132B" stroke="#3A506B" />
+    <text x="60" y="165" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Retrieval Pipeline</text>
+    <text x="60" y="195" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">1. Vector Similarity Search</text>
+    <text x="60" y="225" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">2. Corporate Handbook Index</text>
+    <text x="60" y="255" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">3. Confidence Filtering</text>
+
+    <rect x="320" y="130" width="240" height="160" rx="8" fill="#0B132B" stroke="#3A506B" />
+    <text x="340" y="165" fill="#10B981" font-family="system-ui, sans-serif" font-size="13" font-weight="700">Deterministic Safety</text>
+    <text x="340" y="195" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">1. Parameter Type Validation</text>
+    <text x="340" y="225" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">2. Human Escalation Fallback</text>
+    <text x="340" y="255" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">3. Full Session Audit Log</text>
+  </g>
+</svg>

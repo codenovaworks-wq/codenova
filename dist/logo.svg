@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 140" fill="none">
+  <!-- Symbol -->
+  <g transform="translate(10, 10) scale(0.68)">
+    <path d="M 96 32 L 142 58 L 114 74 L 68 48 Z" fill="#2563EB" />
+    <path d="M 142 58 L 142 88 L 114 104 L 114 74 Z" fill="#1D4ED8" />
+    <path d="M 68 48 L 114 74 L 114 104 L 68 78 Z" fill="#0F172A" />
+
+    <path d="M 38 66 L 84 92 L 56 108 L 10 82 Z" fill="#0B132B" />
+    <path d="M 10 82 L 56 108 L 56 138 L 10 112 Z" fill="#00A3E0" />
+    <path d="M 56 108 L 84 92 L 84 122 L 56 138 Z" fill="#0284C7" />
+  </g>
+  <!-- Wordmark -->
+  <text x="135" y="86" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-size="64" font-weight="700" letter-spacing="-0.03em" fill="#0B132B">Code<tspan fill="#0B132B">Nova</tspan></text>
+</svg>

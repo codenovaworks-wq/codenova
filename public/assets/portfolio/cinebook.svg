@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#0A0F1D" rx="12" />
+  
+  <!-- Cinema Screen Curve -->
+  <path d="M 180 110 Q 400 70 620 110" stroke="#38BDF8" stroke-width="5" fill="none" stroke-linecap="round" />
+  <text x="340" y="60" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12" letter-spacing="4">ALL AUDITORIUM SCREEN</text>
+
+  <!-- Seat Rows -->
+  <g fill="#1E293B" stroke="#334155" stroke-width="1.5">
+    <!-- Row A -->
+    <rect x="220" y="140" width="24" height="24" rx="4" fill="#2563EB" stroke="#60A5FA" />
+    <rect x="254" y="140" width="24" height="24" rx="4" fill="#2563EB" stroke="#60A5FA" />
+    <rect x="288" y="140" width="24" height="24" rx="4" />
+    <rect x="322" y="140" width="24" height="24" rx="4" />
+    <rect x="370" y="140" width="24" height="24" rx="4" fill="#EF4444" />
+    <rect x="404" y="140" width="24" height="24" rx="4" fill="#EF4444" />
+    <rect x="452" y="140" width="24" height="24" rx="4" />
+    <rect x="486" y="140" width="24" height="24" rx="4" />
+    <rect x="520" y="140" width="24" height="24" rx="4" />
+    <rect x="554" y="140" width="24" height="24" rx="4" />
+
+    <!-- Row B -->
+    <rect x="220" y="176" width="24" height="24" rx="4" />
+    <rect x="254" y="176" width="24" height="24" rx="4" />
+    <rect x="288" y="176" width="24" height="24" rx="4" fill="#EF4444" />
+    <rect x="322" y="176" width="24" height="24" rx="4" fill="#EF4444" />
+    <rect x="370" y="176" width="24" height="24" rx="4" fill="#EF4444" />
+    <rect x="404" y="176" width="24" height="24" rx="4" fill="#EF4444" />
+    <rect x="452" y="176" width="24" height="24" rx="4" fill="#2563EB" stroke="#60A5FA" />
+    <rect x="486" y="176" width="24" height="24" rx="4" fill="#2563EB" stroke="#60A5FA" />
+    <rect x="520" y="176" width="24" height="24" rx="4" />
+    <rect x="554" y="176" width="24" height="24" rx="4" />
+
+    <!-- Row C -->
+    <rect x="220" y="212" width="24" height="24" rx="4" />
+    <rect x="254" y="212" width="24" height="24" rx="4" />
+    <rect x="288" y="212" width="24" height="24" rx="4" />
+    <rect x="322" y="212" width="24" height="24" rx="4" />
+    <rect x="370" y="212" width="24" height="24" rx="4" />
+    <rect x="404" y="212" width="24" height="24" rx="4" />
+    <rect x="452" y="212" width="24" height="24" rx="4" />
+    <rect x="486" y="212" width="24" height="24" rx="4" />
+    <rect x="520" y="212" width="24" height="24" rx="4" />
+    <rect x="554" y="212" width="24" height="24" rx="4" />
+  </g>
+
+  <!-- Legend -->
+  <rect x="220" y="260" width="16" height="16" rx="3" fill="#1E293B" stroke="#475569" />
+  <text x="244" y="273" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Available</text>
+  <rect x="340" y="260" width="16" height="16" rx="3" fill="#2563EB" />
+  <text x="364" y="273" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Selected</text>
+  <rect x="460" y="260" width="16" height="16" rx="3" fill="#EF4444" />
+  <text x="484" y="273" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="12">Occupied</text>
+
+  <!-- Checkout Drawer Card -->
+  <rect x="120" y="310" width="560" height="140" rx="10" fill="#111827" stroke="#1F2937" />
+  <text x="150" y="345" fill="#F9FAFB" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Oppenheimer (IMAX 70mm)</text>
+  <text x="150" y="370" fill="#9CA3AF" font-family="system-ui, sans-serif" font-size="13">Screen 4 · Seats B7, B8 · Hall Dolby Atmos</text>
+  
+  <rect x="150" y="390" width="150" height="36" rx="6" fill="#1F2937" />
+  <text x="165" y="413" fill="#38BDF8" font-family="monospace" font-size="12">LOCK: 09m 14s</text>
+
+  <!-- Pay Button -->
+  <rect x="490" y="360" width="160" height="48" rx="8" fill="#2563EB" />
+  <text x="525" y="390" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="14" font-weight="600">Pay $36.00</text>
+</svg>

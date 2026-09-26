@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+Disallow: /client
+Disallow: /client/
+Disallow: /portal
+Disallow: /portal/
+Disallow: /api/
+
+Sitemap: https://codenova.tech/sitemap.xml
